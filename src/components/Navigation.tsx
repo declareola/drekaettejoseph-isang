@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   return (
-    <nav className="bg-primary-dark/95 backdrop-blur-sm border-b border-primary/20 sticky top-0 z-50">
+    <nav className="bg-primary-dark/95 backdrop-blur-sm border-b border-primary/20 sticky top-0 z-50 animate-fade-in">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -17,23 +17,29 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
-            <a href="#about" className="text-white/90 hover:text-white transition-colors">
+            <a href="#about" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               About Us
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#organizations" className="text-white/90 hover:text-white transition-colors">
+            <a href="#organizations" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               For Organizations
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#training" className="text-white/90 hover:text-white transition-colors">
+            <a href="#training" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Online Trainings
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#coaching" className="text-white/90 hover:text-white transition-colors">
+            <a href="#coaching" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Coaching
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#framework" className="text-white/90 hover:text-white transition-colors">
+            <a href="#framework" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Framework
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#blog" className="text-white/90 hover:text-white transition-colors">
+            <a href="#blog" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Blog
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
           </div>
 

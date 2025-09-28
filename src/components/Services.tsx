@@ -41,9 +41,17 @@ const Services = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {organizationalSolutions.map((solution, index) => (
-            <Card key={index} className="p-6 hover:shadow-medium transition-all duration-300 border-0 bg-white">
-              <h3 className="text-xl font-semibold text-primary mb-4">{solution.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{solution.description}</p>
+            <Card 
+              key={index} 
+              className={`p-6 hover:shadow-large hover:-translate-y-2 transition-all duration-500 border-0 bg-white group cursor-pointer animate-fade-in`}
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <h3 className="text-xl font-semibold text-primary mb-4 group-hover:text-accent transition-colors duration-300">
+                {solution.title}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                {solution.description}
+              </p>
             </Card>
           ))}
         </div>

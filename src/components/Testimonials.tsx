@@ -31,14 +31,20 @@ const Testimonials = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-8 border-0 shadow-soft hover:shadow-medium transition-all duration-300">
+            <Card 
+              key={index} 
+              className={`p-8 border-0 shadow-soft hover:shadow-large hover:-translate-y-1 transition-all duration-500 group animate-scale-in`}
+              style={{ animationDelay: `${index * 200}ms` }}
+            >
               <div className="space-y-6">
-                <div className="text-4xl text-accent">"</div>
-                <blockquote className="text-lg text-foreground leading-relaxed -mt-4">
+                <div className="text-4xl text-accent group-hover:scale-110 transition-transform duration-300">"</div>
+                <blockquote className="text-lg text-foreground leading-relaxed -mt-4 group-hover:text-primary transition-colors duration-300">
                   {testimonial.quote}
                 </blockquote>
-                <div className="border-t pt-4">
-                  <div className="font-semibold text-primary">{testimonial.author}</div>
+                <div className="border-t pt-4 border-accent/20">
+                  <div className="font-semibold text-primary group-hover:text-accent transition-colors duration-300">
+                    {testimonial.author}
+                  </div>
                   <div className="text-muted-foreground text-sm">{testimonial.role}</div>
                 </div>
               </div>

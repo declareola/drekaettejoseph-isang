@@ -7,22 +7,23 @@ const AboutDr = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Photo */}
-          <div className="order-2 lg:order-1">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-trust rounded-2xl blur-xl opacity-20 transform -rotate-2"></div>
+          <div className="order-2 lg:order-1 animate-slide-in-left">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-trust rounded-2xl blur-xl opacity-20 transform -rotate-2 group-hover:rotate-2 transition-transform duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-accent rounded-2xl blur-2xl opacity-10 transform rotate-1 group-hover:-rotate-1 transition-transform duration-700"></div>
               <img
                 src={drClairbornePortrait}
                 alt="Dr. Maiysha Clairborne MD - Founder of Mind Remapping Academy"
-                className="relative rounded-2xl shadow-large w-full max-w-md mx-auto"
+                className="relative rounded-2xl shadow-large w-full max-w-md mx-auto transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
 
           {/* Content */}
-          <div className="order-1 lg:order-2 space-y-6">
+          <div className="order-1 lg:order-2 space-y-6 animate-slide-in-right">
             <div>
-              <h2 className="text-4xl font-bold text-primary mb-4">Meet Dr. Maiysha Clairborne</h2>
-              <p className="text-xl text-accent font-semibold mb-6">
+              <h2 className="text-4xl font-bold text-primary mb-4 animate-fade-in-up">Meet Dr. Maiysha Clairborne</h2>
+              <p className="text-xl text-accent font-semibold mb-6 animate-fade-in">
                 MD, Trauma-Informed Communication Expert & Founder
               </p>
             </div>
