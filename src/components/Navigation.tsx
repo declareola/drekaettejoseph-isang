@@ -17,27 +17,27 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
-            <a href="#about" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+            <a href="/about" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               About Us
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#organizations" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+            <a href="/organizations" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               For Organizations
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#training" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+            <a href="/training" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Online Trainings
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#coaching" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+            <a href="/coaching" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Coaching
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#framework" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+            <a href="/framework" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Framework
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#blog" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+            <a href="/blog" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Blog
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>

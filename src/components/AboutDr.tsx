@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import drClairbornePortrait from "@/assets/dr-clairborne-portrait.jpg";
+import drMaiyshaProfessional from "@/assets/dr-maiysha-portrait.jpg";
 
 const AboutDr = () => {
   return (
@@ -12,7 +12,7 @@ const AboutDr = () => {
               <div className="absolute inset-0 bg-gradient-trust rounded-2xl blur-xl opacity-20 transform -rotate-2 group-hover:rotate-2 transition-transform duration-500"></div>
               <div className="absolute inset-0 bg-gradient-accent rounded-2xl blur-2xl opacity-10 transform rotate-1 group-hover:-rotate-1 transition-transform duration-700"></div>
               <img
-                src={drClairbornePortrait}
+                src={drMaiyshaProfessional}
                 alt="Dr. Maiysha Clairborne MD - Founder of Mind Remapping Academy"
                 className="relative rounded-2xl shadow-large w-full max-w-md mx-auto transform group-hover:scale-105 transition-transform duration-500"
               />
