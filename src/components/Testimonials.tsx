@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Dr. Clairborne's process doesn't just inspire leaders — it transforms how they lead every day.",
+      quote: "Dr. Joseph-Isang's process doesn't just inspire leaders — it transforms how they lead every day.",
       author: "VP, Healthcare System",
       role: "Healthcare Leadership"
     },
@@ -13,7 +13,7 @@ const Testimonials = () => {
       role: "Fortune 500 Company"
     },
     {
-      quote: "Finally, a framework that addresses the root causes of communication breakdowns. Dr. Clairborne's approach is both scientifically grounded and practically transformative.",
+      quote: "Finally, a framework that addresses the root causes of communication breakdowns. Dr. Joseph-Isang's approach is both scientifically grounded and practically transformative.",
       author: "Executive Director",
       role: "Non-Profit Organization"
     }

@@ -13,7 +13,7 @@ const AboutDr = () => {
               <div className="absolute inset-0 bg-gradient-accent rounded-2xl blur-2xl opacity-10 transform rotate-1 group-hover:-rotate-1 transition-transform duration-700"></div>
               <img
                 src={drMaiyshaProfessional}
-                alt="Dr. Maiysha Clairborne MD - Founder of Mind Remapping Academy"
+                alt="Dr. Ekaette Joseph-Isang MD - Founder of Mind Remapping Academy"
                 className="relative rounded-2xl shadow-large w-full max-w-md mx-auto transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -22,7 +22,7 @@ const AboutDr = () => {
           {/* Content */}
           <div className="order-1 lg:order-2 space-y-6 animate-slide-in-right">
             <div>
-              <h2 className="text-4xl font-bold text-primary mb-4 animate-fade-in-up">Meet Dr. Maiysha Clairborne</h2>
+              <h2 className="text-4xl font-bold text-primary mb-4 animate-fade-in-up">Meet Dr. Ekaette Joseph-Isang</h2>
               <p className="text-xl text-accent font-semibold mb-6 animate-fade-in">
                 MD, Trauma-Informed Communication Expert & Founder
               </p>
@@ -30,13 +30,13 @@ const AboutDr = () => {
             
             <div className="space-y-4 text-lg leading-relaxed text-muted-foreground">
               <p>
-                Dr. Maiysha Clairborne is a pioneering physician and communication expert who has dedicated 
+                Dr. Ekaette Joseph-Isang is a pioneering physician and communication expert who has dedicated 
                 her career to transforming how leaders and organizations communicate through trauma-informed practices.
               </p>
               
               <p>
                 With extensive experience in healthcare leadership and organizational development, 
-                Dr. Clairborne developed the revolutionary R.E.M.A.P.™ methodology that bridges 
+                Dr. Joseph-Isang developed the revolutionary R.E.M.A.P.™ methodology that bridges
                 neuroscience, emotional intelligence, and practical communication skills.
               </p>
               
@@ -48,7 +48,7 @@ const AboutDr = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <Button variant="accent" size="lg">
-                Learn More About Dr. Clairborne
+                Learn More About Dr. Joseph-Isang
               </Button>
               <Button variant="outline" size="lg">
                 Schedule a Consultation

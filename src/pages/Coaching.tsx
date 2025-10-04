@@ -61,7 +61,7 @@ const Coaching = () => {
           <div className="text-center max-w-4xl mx-auto animate-fade-in-up">
             <h1 className="text-5xl font-bold mb-6">Personal Coaching & Consulting</h1>
             <p className="text-xl text-white/90 leading-relaxed mb-8">
-              Work directly with Dr. Clairborne to transform your leadership and organizational culture
+              Work directly with Dr. Joseph-Isang to transform your leadership and organizational culture
             </p>
             <Button variant="hero" size="lg" className="text-lg px-8">
               Schedule Discovery Call
@@ -114,10 +114,10 @@ const Coaching = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="space-y-6 animate-slide-in-left">
-              <h2 className="text-4xl font-bold text-primary">Why Choose Dr. Clairborne?</h2>
+              <h2 className="text-4xl font-bold text-primary">Why Choose Dr. Joseph-Isang?</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 With over two decades of experience in healthcare leadership and organizational development, 
-                Dr. Clairborne brings a unique perspective that combines medical expertise with deep understanding 
+                Dr. Joseph-Isang brings a unique perspective that combines medical expertise with deep understanding 
                 of trauma-informed practices.
               </p>
               <div className="space-y-4">
@@ -155,7 +155,7 @@ const Coaching = () => {
                 <div className="absolute inset-0 bg-gradient-trust rounded-2xl blur-xl opacity-20 transform -rotate-2 group-hover:rotate-2 transition-transform duration-500"></div>
                 <img
                   src={drMaiyshaProfessional}
-                  alt="Dr. Maiysha Clairborne - Personal Coaching"
+                  alt="Dr. Ekaette Joseph-Isang - Personal Coaching"
                   className="relative rounded-2xl shadow-large w-full transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>

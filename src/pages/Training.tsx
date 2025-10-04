@@ -128,7 +128,7 @@ const Training = () => {
               </div>
               <div className="text-left space-y-4 animate-slide-in-right">
                 <h3 className="text-xl font-semibold text-primary">Expert Support</h3>
-                <p className="text-muted-foreground">Access to Dr. Clairborne and certified facilitators throughout your journey</p>
+                <p className="text-muted-foreground">Access to Dr. Joseph-Isang and certified facilitators throughout your journey</p>
               </div>
               <div className="text-left space-y-4 animate-slide-in-left" style={{ animationDelay: "200ms" }}>
                 <h3 className="text-xl font-semibold text-primary">Flexible Schedule</h3>

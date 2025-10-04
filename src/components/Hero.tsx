@@ -42,7 +42,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-trust rounded-2xl blur-xl opacity-20 transform -rotate-2 group-hover:-rotate-4 transition-transform duration-700"></div>
               <img
                 src={drMaiyshaProfessional}
-                alt="Dr. Maiysha Clairborne - Trauma-Informed Communication Expert"
+                alt="Dr. Ekaette Joseph-Isang - Trauma-Informed Communication Expert"
                 className="relative rounded-2xl shadow-large max-w-md w-full transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>

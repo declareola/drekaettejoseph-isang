@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="text-white/80">
               <p>Call Us Today!</p>
               <p className="font-semibold text-accent">(404) 793-0011</p>
-              <p>drclairborne@mindremappingacademy.com</p>
+              <p>drjoseph-isang@mindremappingacademy.com</p>
             </div>
           </div>
 

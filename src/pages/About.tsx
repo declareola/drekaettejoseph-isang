@@ -45,7 +45,7 @@ const About = () => {
                 <div className="absolute inset-0 bg-gradient-trust rounded-2xl blur-xl opacity-20 transform -rotate-2 group-hover:rotate-2 transition-transform duration-500"></div>
                 <img
                   src={drMaiyshaProfessional}
-                  alt="Dr. Maiysha Clairborne - Mind Remapping Academy Founder"
+                  alt="Dr. Ekaette Joseph-Isang - Mind Remapping Academy Founder"
                   className="relative rounded-2xl shadow-large w-full transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
