@@ -37,6 +37,18 @@ const Navigation = () => {
               Framework
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
             </a>
+            <a href="/retail-venture" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+              Retail Venture
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="/ritebridge" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+              RiteBridge
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="/champions-coaching" className="text-white/90 hover:text-white transition-all duration-300 relative group">
+              Champions Coaching
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
+            </a>
             <a href="/blog" className="text-white/90 hover:text-white transition-all duration-300 relative group">
               Blog
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>

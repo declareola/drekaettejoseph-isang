@@ -4,6 +4,7 @@ import AssessmentBanner from "@/components/AssessmentBanner";
 import Philosophy from "@/components/Philosophy";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
+import VenturesHighlight from "@/components/VenturesHighlight";
 import AboutDr from "@/components/AboutDr";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -17,6 +18,7 @@ const Index = () => {
       <Philosophy />
       <Services />
       <Testimonials />
+      <VenturesHighlight />
       <AboutDr />
       <Footer />
       <ScrollToTop />
